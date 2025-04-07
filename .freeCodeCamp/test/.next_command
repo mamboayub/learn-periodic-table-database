@@ -85,3 +85,4 @@ git status
 ./element.sh
 ./element.sh 8
 ./element.sh 80
+pg_dump -cC --inserts -U freecodecamp periodic_table > periodic_table.sql
